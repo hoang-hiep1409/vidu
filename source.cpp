@@ -30,3 +30,8 @@ int tong(int a, int b){
 int hieu(int a, int b){
 	return a-b;
 }
+String kiemTraChanLe(int n){
+	if(n%2==0)
+		return "Chan"
+	return "Le"
+}
